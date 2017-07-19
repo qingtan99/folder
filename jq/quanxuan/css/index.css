@@ -1,0 +1,150 @@
+@charset "utf-8";
+* {
+	margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline;
+}
+table{border-collapse:collapse;border-spacing:0;}
+.c-100 {
+	width: 100%;
+}
+.c-t-center {
+	text-align: center;
+}
+.mt30 {
+	margin-top: 30px;
+}
+.mb10 {
+	margin-bottom: 10px;
+}
+.ptb20 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.c-main {
+	width: 1000px;
+	margin: 0 auto;
+}
+/* table css*/
+.tb th {
+    line-height: 20px;
+
+    padding: 10px 5px;
+
+    vertical-align: middle;
+
+    color: #999;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #f4f5f6;
+}
+.tb td
+{
+    line-height: 25px;
+
+    padding: 10px 5px;
+
+    vertical-align: middle;
+    word-wrap: break-word;
+    word-break: break-all;
+
+    color: #666;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+}
+.tb th.small
+{
+    padding: 5px;
+}
+.tb .hover td
+{
+    background-color: #fafafa;
+}
+.tb-b
+{
+    border: 1px solid #ddd;
+}
+.tb-b th,
+.tb-b td
+{
+    border-color: #ddd;
+    border-left: 1px solid #ddd;
+}
+.tb-n th,
+.tb-n td
+{
+    padding: 10px;
+
+    vertical-align: middle;
+
+    color: #666;
+    border: 0;
+    background: none;
+}
+tr td:first-child
+{
+    width: 50px;
+}
+tr.hover td
+{
+    background-color: #fcfcfc;
+}
+.tb-s
+{
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+.tb-s th
+{
+    width: 120px;
+    padding: 15px 10px;
+
+    color: #333;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+.tb-s td
+{
+    padding: 15px 10px;
+
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.tb-skin1 th
+{
+    position: relative;
+
+    padding: 5px;
+
+    border-top: 0 none;
+    border-bottom: 0 none;
+    background-color: #f4f5f6;
+}
+.tb-skin1 th:before
+{
+    font-size: 0;
+
+    position: absolute;
+    z-index: 1; 
+    top: 5px;
+    right: -1px;
+    bottom: 5px;
+
+    display: block;
+
+    width: 1px;
+
+    content: '';
+
+    background-color: #ddd;
+}
+.tb-skin1 th:last-child
+{
+    overflow: hidden;
+
+    *zoom: 1;
+}
+.tb-min th,
+.tb-min td
+{
+    padding: 1px 4px;
+}
